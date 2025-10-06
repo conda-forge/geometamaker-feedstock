@@ -14,7 +14,7 @@ build:
     - geometamaker = geometamaker.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -29,10 +29,10 @@ requirements:
     - click
     - fsspec
     - GDAL
-    - frictionless
+    - frictionless >=5.10.0
     - numpy
     - platformdirs
-    - Pydantic
+    - Pydantic >=2.0
     - pygeoprocessing >=2.4.5
     - pyyaml
     - requests
