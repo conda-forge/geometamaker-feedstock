@@ -29,8 +29,8 @@ requirements:
     - click
     - fsspec
     - GDAL
-    - frictionless >=5.10.0
     - numpy
+    - pandas
     - platformdirs
     - Pydantic >=2.0
     - pygeoprocessing >=2.4.5
