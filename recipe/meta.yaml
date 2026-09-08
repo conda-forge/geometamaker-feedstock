@@ -1,13 +1,13 @@
 {% set name = "geometamaker" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geometamaker-{{ version }}.tar.gz
-  sha256: f2ee59d45120f2393803ff1b8c69b4483ad2da3be986561d3ff582d22492285d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/geometamaker-{{ version }}.tar.gz
+  sha256: c085f3297ba9cf225cfb9aac6857db258500f7fc8a9ae39bf6949f26662db570
 
 build:
   entry_points:
